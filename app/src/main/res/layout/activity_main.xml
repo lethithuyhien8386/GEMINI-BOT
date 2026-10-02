@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gemini Game Bot Setup"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Google AI Studio API Key"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etApiKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSaveKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save API Key"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGrantOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Grant Overlay Permission"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnGrantAccessibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Grant Accessibility Permission"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnStartFloating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Start Floating Control Bar" />
+
+</LinearLayout>

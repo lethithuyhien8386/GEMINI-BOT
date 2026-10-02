@@ -1,0 +1,2 @@
+rootProject.name = "Gemini Game Bot"
+include ':app'

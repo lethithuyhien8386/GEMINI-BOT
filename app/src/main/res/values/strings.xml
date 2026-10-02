@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Gemini Game Bot</string>
+    <string name="accessibility_service_description">Gemini Game Bot requires Accessibility Service to perform clicks, holds, and drags for automated gameplay.</string>
+</resources>

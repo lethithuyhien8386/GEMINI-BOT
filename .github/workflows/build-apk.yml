@@ -18,6 +18,10 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
+    # THÊM DÒNG NÀY ĐỂ CẤP QUYỀN THỰC THI CHO GRADLEW
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
     - name: Build Debug APK
       run: ./gradlew assembleDebug
 
